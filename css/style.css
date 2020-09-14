@@ -156,6 +156,14 @@ footer{
     width: 100%;
 }
 
+.powered-by{
+    height: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
 @media screen and (max-width: 576px)
 {
     .front-card{
@@ -189,9 +197,9 @@ footer{
         line-height: 45px;
     }
 
-    /* .down-row-house{
-        margin-top: 30px;
-    } */
+    .house{
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 1200px)
