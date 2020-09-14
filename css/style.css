@@ -127,3 +127,11 @@ main>section{
     color: white;
     padding: 15px;
 }
+
+.map{
+    margin-top: 50px;
+}
+
+.map-img{
+    width: 100%;
+}
