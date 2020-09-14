@@ -197,7 +197,7 @@ footer{
         line-height: 45px;
     }
 
-    .house{
+    .house, .team-card{
         margin-top: 20px;
     }
 }
