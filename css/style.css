@@ -52,12 +52,11 @@ footer{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     min-width: 300px;
 }
 
 .front-card-first-site-name{
-    background: black;
+    border: 3px solid black;
     width: 75px;
     height: 75px;
     text-align: center;
@@ -67,6 +66,7 @@ footer{
 }
 
 .front-card-last-site-name{
+    color: white;
     float: right;
     font-size: 35px;
 }
