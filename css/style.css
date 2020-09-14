@@ -12,6 +12,10 @@ nav{
     z-index: 1;
 }
 
+main>section{
+    margin-top: 50px;
+}
+
 .first-site-name{
     font-weight: bold;
     text-transform: uppercase;
@@ -83,4 +87,43 @@ nav{
 .house-img{
     width: 100%;
     height: 200px;
+}
+
+.team-card-img{
+    height: 170px;
+}
+
+.team-card-position{
+    color: gray;
+    font-weight: lighter;
+}
+
+.team-card-contact{
+    border: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.team-card-contact:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+.contact-form-input{
+    border: 1px solid gray;
+    padding: 5px;
+    width: 100%;
+}
+
+.contact-form-submit{
+    border: none;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    padding: 15px;
 }
