@@ -12,8 +12,12 @@ nav{
     z-index: 1;
 }
 
-main>section{
-    margin-top: 50px;
+main{
+    margin-top: 150px;
+}
+
+footer{
+    margin-top: 150px;
 }
 
 .first-site-name{
@@ -67,6 +71,10 @@ main>section{
     font-size: 35px;
 }
 
+.team, .about{
+    margin-top: 50px;
+}
+
 .house-row{
     margin-top: 10px;
 }
@@ -111,16 +119,28 @@ main>section{
 }
 
 .contact-form{
+    position: relative;
     width: 100%;
+    height: 300px;
+}
+
+.contact-form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65%;
 }
 
 .contact-form-input{
     border: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
 }
 
 .contact-form-submit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     border: none;
     text-transform: uppercase;
     background: black;
