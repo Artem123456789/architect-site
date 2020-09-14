@@ -98,6 +98,7 @@ footer{
 
 .team-card-img{
     height: 170px;
+    width: 100%;
 }
 
 .team-card-position{
@@ -168,7 +169,17 @@ footer{
 
 @media screen and (max-width: 768px)
 {
+    .down-row-house{
+        margin-top: 0px;
+    }
 
+    .team-card-img{
+        height: 250px;
+    }
+
+    .team-card{
+        margin-top: 15px;
+    }
 }
 
 @media screen and (max-width: 992px)
@@ -177,6 +188,10 @@ footer{
         text-align: center;
         line-height: 45px;
     }
+
+    /* .down-row-house{
+        margin-top: 30px;
+    } */
 }
 
 @media screen and (max-width: 1200px)
